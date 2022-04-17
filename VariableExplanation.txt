@@ -1,1 +1,22 @@
+• Tm - a franchise's abbreviation; this will be excluded from the analysis as team name is irrelevant to performance	
 
+• Lg – which league a team is in (AL, NL, or Both) 
+•	MarketSize2012 – how big a team’s market is (Small, Medium, or Big) 
+•	Salary – compares how much money a team spent on its players compared to the league average
+•	tmW%L – a team’s win-loss percentage; number of wins divided by number of games played
+•	TB/G – total bases per game
+•	RC/G – runs created per game
+•	BAbip – batting average on balls in play
+•	BA – batting average
+•	OBP – on base percentage
+•	SLG – slugging percentage
+•	OPS – on base percentage plus slugging percentage
+•	OPS+ - OPS as a normalized number across the whole league; considers factors like ballparks
+•	TotA
+•	SecA
+•	ISO – isolated power
+•	PwrSpd
+•	hWAR – the total Wins Above Replacement values of every position player on a team
+•	RA9 – the number of runs against a team per nine innings
+•	pWAR - the total Wins Above Replacement values of every pitcher on a team
+•	ERA+ - Earned Run Average as a normalized number across the whole league; considers factors like ballparks
