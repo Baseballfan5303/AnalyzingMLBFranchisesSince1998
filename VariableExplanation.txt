@@ -1,22 +1,58 @@
-• Tm - a franchise's abbreviation; this will be excluded from the analysis as team name is irrelevant to performance	
+***Credit to Stathead / Baseball-Reference for information on the statistical terms/variables***
 
-• Lg – which league a team is in (AL, NL, or Both) 
-•	MarketSize2012 – how big a team’s market is (Small, Medium, or Big) 
-•	Salary – compares how much money a team spent on its players compared to the league average
-•	tmW%L – a team’s win-loss percentage; number of wins divided by number of games played
-•	TB/G – total bases per game
-•	RC/G – runs created per game
-•	BAbip – batting average on balls in play
-•	BA – batting average
-•	OBP – on base percentage
-•	SLG – slugging percentage
-•	OPS – on base percentage plus slugging percentage
-•	OPS+ - OPS as a normalized number across the whole league; considers factors like ballparks
-•	TotA
-•	SecA
-•	ISO – isolated power
-•	PwrSpd
-•	hWAR – the total Wins Above Replacement values of every position player on a team
-•	RA9 – the number of runs against a team per nine innings
-•	pWAR - the total Wins Above Replacement values of every pitcher on a team
-•	ERA+ - Earned Run Average as a normalized number across the whole league; considers factors like ballparks
+Tm - a franchise's abbreviation; this will be excluded from the analysis as team name is irrelevant to performance	
+
+Lg – which league a team is in (AL, NL, or Both)
+  -AL = American League
+  -NL = National League
+  -Both >> the Houston Astros switched from the NL to the AL before the 2013 MLB season
+  
+MarketSize2012 – how big a team’s market is (Small, Medium, or Big) 
+  -Based on Bleacher Report's article discussed in my first Progress Report
+  
+Salary – compares how much money a team spent on its players compared to the league average
+
+tmW%L – a team’s win-loss percentage
+  -Calculation: total # of wins / total # of games played
+
+TB/G – total bases per game
+  -Total bases calculation: Singles + (2 * Doubles) + (3 * Triples) + (4 * Home Runs)
+    -Calculation: team's total bases / total # of games played
+
+RC/G – runs created per game
+  -Runs Created estimates a player's total contributions to a team's runs total
+    -A technical calculation/formula developed by Bill James and others.
+  -Calculation: runs created per 27 outs used
+
+BAbip – batting average on balls in play
+  -Calculation: (hits - homeruns) / (at-bats - strikeouts - homeruns - sacrifice flies)
+
+BA – batting average
+  -Calculation: hits / at-bats
+
+OBP – on base percentage
+  -Calculation: (hits + base-on-balls + hit-by-pitch) / (at-bats + base-on-balls + hit-by-pitch + sacrifice flies)
+
+SLG – slugging percentage
+  -Calculation: total bases / at-bats
+
+OPS – on base percentage plus slugging percentage
+  -Calculation: OBP + SLG
+
+OPS+ - OPS as a normalized number across the whole league; considers factors like ballparks
+  -Calculation: 100 * [(OBP / league average OBP) + (SLG / (league average - 1))]
+
+*hWAR – the total Wins Above Replacement values of every position player on a team
+
+RA9 – the number of runs against a team per nine innings
+  -Calculation: runs given up by a team * 9  / innings pitched
+    -Runs are both unearned and earned in this case; 9 stands for the nine innings in a standard baseball game
+
+*pWAR - the total Wins Above Replacement values of every pitcher on a team
+
+ERA+ - Earned Run Average (ERA) as a normalized number across the whole league; considers factors like ballparks
+  -Calculation: 100 * (league average ERA / ERA)
+    -ERA is calculated by: (9 * earned runs) / innings pitched
+
+*WAR is a very complicated stat to represent the number of wins a player added to a team above what a replacement player would add.
+  -Developed by Sean Smith of BaseballProjection.com
