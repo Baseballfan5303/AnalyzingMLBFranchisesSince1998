@@ -1,0 +1,36 @@
+ANA - Anaheim Angels
+  -Were the Los Angeles of Anaheim through 2015.
+  -Changed their name to the Los Angeles Angels prior to the 2016 season.
+ARI - Arizona Diamondbacks
+ATL - Atlanta Braves
+BAL - Baltimore Orioles
+BOS - Boston Red Sox
+CHC - Chicago Cubs
+CHW - Chicago White Sox
+CIN - Cincinnati Reds
+CLE - Cleveland Indians
+  -Changed their name to the Cleveland Guardians prior to the 2022 season.
+COL - Colorado Rockies
+DET - Detroit Tigers
+FLA - Florida Marlins
+  -Changed their name to the Miami Marlins prior to the the 2012 season.
+HOU - Houston Astros
+  -Moved from the NL to the AL prior to the 2013 season.
+KCR - Kansas City Royals
+LAD - Los Angeles Dodgers
+MIL - Milwaukee Brewers
+MIN - Minnesota Twins
+NYM - New York Mets
+NYY - New York Yankees
+OAK - Oakland Atheltics
+PHI - Philadelphia Phillies
+PIT - Pittsburgh Pirates
+SDP - San Diego Padres
+SEA - Seattle Mariners
+SFG - San Francisco Giants
+STL - St. Louis Cardinals
+TBD - Tampa Ray Devil Rays
+  -Changed their name to the Tampa Bay Rays prior to the 2008 season.
+TEX - Texas Rangers
+TOR - Toronto Blue Jays
+WSN - Washington Nationals
